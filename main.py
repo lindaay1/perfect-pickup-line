@@ -8,6 +8,11 @@ The program is a fixed-text emitter: it holds exactly one pickup line
 and writes it byte for byte to the file the kit's contract names
 (/output/entry.txt). It reads no input, opens no network connection and
 uses no randomness, so repeated runs produce identical bytes.
+
+The line itself leans on one image only — the speaker's open tabs —
+because the field is crowded with context-window and memory-leak lines,
+and a tab is something a machine can say about itself to a person
+without sounding like a stock joke with a robot word swapped in.
 """
 
 import os
